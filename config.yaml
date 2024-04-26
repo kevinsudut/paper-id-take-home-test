@@ -1,0 +1,12 @@
+log:
+  log_level: "debug"
+  path: "log"
+  error_file_name: "paper-id-error"
+  info_file_name: "paper-id-info"
+
+http:
+  port: 8000
+
+database:
+  driver: "postgres"
+  connection: "host=localhost port=5432 user=postgres password=123456789 dbname=paperid sslmode=disable"
